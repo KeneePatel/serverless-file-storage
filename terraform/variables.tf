@@ -5,14 +5,13 @@ variable "aws_region" {
 
 variable "project_name" {
   description = "Base name for project resources"
-  default     = "file-storage-system"
+  default     = "cloud-file-storage"
 }
 
 variable "tags" {
   description = "Tags to set on all resources"
   default     = {
     Project     = "File Storage System"
-    Environment = "Dev"
     ManagedBy   = "Terraform"
   }
 }
